@@ -1,0 +1,1113 @@
+-- Startup on: Tuesday, April 24, 2018 11:54:13 AM --
+504	0 p=1 puid=3	(0)  cmd: Form. < ms
+506	0 p=1 puid=3	(0)  cmd: Null. < ms
+508	0 p=1 puid=3	(0)  cmd: Form event. < ms
+510	0 p=1 puid=3	(0)  cmd: Form. < ms
+512	0 p=1 puid=3	(0)  cmd: Null. < ms
+514	0 p=1 puid=3	(0)  cmd: Form. < ms
+516	0 p=1 puid=3	(0)  cmd: Form. < ms
+517	0 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+519	0 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+521	0 p=1 puid=3	(1)  cmd: Form. < ms
+523	38 p=1 puid=3	(1)  cmd: Picture size(16 672 KB). < ms
+525	57 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(16 672 KB;$breit;$hoch). 19 ms
+526	57 p=1 puid=3	(1)  meth: SVG_New
+527	57 p=1 puid=3	(2)  meth: Compiler_SVG
+529	57 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+530	57 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+532	57 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+533	57 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+534	57 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+536	57 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+538	57 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+540	58 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841E4F29000007FB844AAAA08";"UTF-8";Wahr). < ms
+542	58 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+544	58 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841E4F29000007FB844AAAA08";4;2). < ms
+546	58 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841E4F29000007FB844AAAA08";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+548	58 p=1 puid=3	(2)  cmd: String(3840;"&xml"). < ms
+550	58 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841E4F29000007FB844AAAA08";"width";"3840"). < ms
+552	58 p=1 puid=3	(2)  cmd: String(2160;"&xml"). < ms
+554	58 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841E4F29000007FB844AAAA08";"height";"2160"). < ms
+556	58 p=1 puid=3	(2)  cmd: Structure file. < ms
+558	58 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+560	58 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+562	58 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+564	58 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841E4F29000007FB844AAAA08";"/svg/defs";"id";"4D"). < ms
+566	58 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841E4F29000007FB844AAAF48";"id";"4D"). < ms
+568	58 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841E4F29000007FB844AAAA08"). < ms
+569	58 p=1 puid=3	(2)  meth: Component_errorHandler
+571	58 p=1 puid=3	(3)  cmd: Method called on error. < ms
+573	58 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+574	58 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+576	58 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+577	58 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+578	58 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+579	58 p=1 puid=3	(2)  meth: Compiler_SVG
+581	58 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+582	58 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+584	58 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+585	58 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+586	58 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+588	58 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+589	58 p=1 puid=3	(2)  meth: xml_referenceValid
+591	58 p=1 puid=3	(3)  cmd: Method called on error. < ms
+593	58 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+595	58 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841E4F29000007FB844AAAA08"). < ms
+597	58 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+598	58 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+600	58 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+602	58 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+604	58 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+606	58 p=1 puid=3	(2)  cmd: Picture size(16 672 KB). < ms
+608	58 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+610	77 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 18 ms
+612	125 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 47 ms
+614	127 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). 1 ms
+616	168 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841E4F29000007FB844AAAA08"). < ms
+618	168 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841E4F29000007FB844AAAA08";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+620	240 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841E4F29000007FB844AAAA08";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAADwAAAAhwCAIAAAAf3FwlAAAAAXNSR0IArs4c6QAAQABJREFUeAHcvXnQZtlZ2...";"x";0;"y";0;"width";3840;"height";2160). 23 ms
+621	241 p=1 puid=3	(2)  meth: Component_errorHandler
+623	241 p=1 puid=3	(3)  cmd: Method called on error. < ms
+625	241 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+626	241 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+628	241 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+629	241 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 183 ms
+630	246 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+632	246 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+634	246 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+635	246 p=1 puid=3	(2)  meth: Compiler_SVG
+637	246 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+638	246 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+640	246 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+641	246 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+642	246 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+644	246 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+646	246 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+648	246 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+650	246 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841E4F29000007FB844AAB2C0";n/a). < ms
+652	246 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+654	246 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+656	246 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+658	246 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+660	246 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841E4F29000007FB844AAB2C0"). < ms
+662	246 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841E4F29000007FB844AAAA08";"d4:brightness0.3"). < ms
+664	247 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841E4F29000007FB844AAAA08";"svg/defs"). < ms
+666	247 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841E4F29000007FB844AAAF48";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+668	247 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841E4F29000007FB844AAB918";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+670	247 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841E4F29000007FB844AAB2C0";"filter";"url(#d4:brightness0.3)"). < ms
+671	247 p=1 puid=3	(2)  meth: Component_errorHandler
+673	247 p=1 puid=3	(3)  cmd: Method called on error. < ms
+675	247 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+676	247 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+678	247 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+679	247 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+680	247 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+681	247 p=1 puid=3	(2)  meth: Compiler_SVG
+683	247 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+684	247 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+686	247 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+687	247 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+688	247 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+690	247 p=1 puid=3	(2)  cmd: Current method name. < ms
+691	247 p=1 puid=3	(2)  meth: xml_referenceValid
+693	247 p=1 puid=3	(3)  cmd: Method called on error. < ms
+695	247 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+697	247 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841E4F29000007FB844AAAA08"). < ms
+699	247 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+700	247 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+702	247 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+704	247 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+706	247 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+708	247 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841E4F29000007FB844AAAA08";n/a;2). < ms
+709	247 p=1 puid=3	(2)  meth: Component_errorHandler
+711	247 p=1 puid=3	(3)  cmd: Method called on error. < ms
+713	247 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+714	247 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+716	247 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+717	247 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+719	247 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+721	247 p=1 puid=3	(1)  cmd: True. < ms
+723	248 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+725	248 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+727	248 p=1 puid=3	(1)  cmd: Form. < ms
+729	248 p=1 puid=3	(1)  cmd: Form. < ms
+731	248 p=1 puid=3	(1)  cmd: True. < ms
+732	248 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+734	248 p=1 puid=3	(2)  cmd: Count parameters. < ms
+736	248 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+738	248 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+740	248 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+742	248 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+744	248 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+746	248 p=1 puid=3	(2)  cmd: Form. < ms
+748	248 p=1 puid=3	(2)  cmd: Null. < ms
+750	248 p=1 puid=3	(2)  cmd: Form. < ms
+752	248 p=1 puid=3	(2)  cmd: Form. < ms
+754	248 p=1 puid=3	(2)  cmd: New collection. < ms
+756	248 p=1 puid=3	(2)  cmd: Form. < ms
+757	248 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+758	249 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 248 ms
+760	249 p=1 puid=3	(0)  cmd: Form. < ms
+762	249 p=1 puid=3	(0)  cmd: Null. < ms
+764	249 p=1 puid=3	(0)  cmd: Form. < ms
+766	249 p=1 puid=3	(0)  cmd: Null. < ms
+768	249 p=1 puid=3	(0)  cmd: True. < ms
+770	249 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+772	249 p=1 puid=3	(0)  cmd: Form. < ms
+774	249 p=1 puid=3	(0)  cmd: Null. < ms
+776	249 p=1 puid=3	(0)  cmd: True. < ms
+778	249 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms
+-- Startup on: Tuesday, April 24, 2018 11:54:57 AM --
+781	0 p=1 puid=3	(0)  cmd: Form. < ms
+783	0 p=1 puid=3	(0)  cmd: Null. < ms
+785	0 p=1 puid=3	(0)  cmd: Form event. < ms
+787	0 p=1 puid=3	(0)  cmd: Form. < ms
+789	1 p=1 puid=3	(0)  cmd: Null. < ms
+791	1 p=1 puid=3	(0)  cmd: Form. < ms
+793	1 p=1 puid=3	(0)  cmd: Form. < ms
+794	1 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+796	1 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+798	1 p=1 puid=3	(1)  cmd: Form. < ms
+800	19 p=1 puid=3	(1)  cmd: Picture size(10 231 KB). < ms
+802	31 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(10 231 KB;$breit;$hoch). 11 ms
+803	31 p=1 puid=3	(1)  meth: SVG_New
+804	31 p=1 puid=3	(2)  meth: Compiler_SVG
+806	31 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+807	31 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+809	31 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+810	31 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+811	31 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+813	31 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+815	31 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+817	31 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841AF20B000007FB844103208";"UTF-8";Wahr). < ms
+819	31 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+821	31 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841AF20B000007FB844103208";4;2). < ms
+823	31 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841AF20B000007FB844103208";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+825	31 p=1 puid=3	(2)  cmd: String(3840;"&xml"). < ms
+827	31 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841AF20B000007FB844103208";"width";"3840"). < ms
+829	31 p=1 puid=3	(2)  cmd: String(2160;"&xml"). < ms
+831	31 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841AF20B000007FB844103208";"height";"2160"). < ms
+833	31 p=1 puid=3	(2)  cmd: Structure file. < ms
+835	31 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+837	32 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+839	32 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+841	32 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841AF20B000007FB844103208";"/svg/defs";"id";"4D"). < ms
+843	32 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841AF20B000007FB844103748";"id";"4D"). < ms
+845	32 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841AF20B000007FB844103208"). < ms
+846	32 p=1 puid=3	(2)  meth: Component_errorHandler
+848	32 p=1 puid=3	(3)  cmd: Method called on error. < ms
+850	32 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+851	32 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+853	32 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+854	32 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+855	32 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+856	32 p=1 puid=3	(2)  meth: Compiler_SVG
+858	32 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+859	32 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+861	32 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+862	32 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+863	32 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+865	32 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+866	32 p=1 puid=3	(2)  meth: xml_referenceValid
+868	32 p=1 puid=3	(3)  cmd: Method called on error. < ms
+870	32 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+872	32 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841AF20B000007FB844103208"). < ms
+874	32 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+875	32 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+877	32 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+879	32 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+881	32 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+883	32 p=1 puid=3	(2)  cmd: Picture size(10 231 KB). < ms
+885	32 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+887	46 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 13 ms
+889	79 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 32 ms
+891	80 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). < ms
+893	101 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841AF20B000007FB844103208"). < ms
+895	101 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841AF20B000007FB844103208";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+897	139 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841AF20B000007FB844103208";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAADwAAAAhwCAIAAAAf3FwlAAAAAXNSR0IArs4c6QAAQABJREFUeAHs3VtvJEuSJ...";"x";0;"y";0;"width";3840;"height";2160). 12 ms
+898	139 p=1 puid=3	(2)  meth: Component_errorHandler
+900	139 p=1 puid=3	(3)  cmd: Method called on error. < ms
+902	139 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+903	139 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+905	139 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+906	139 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 107 ms
+907	142 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+909	142 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+911	142 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+912	142 p=1 puid=3	(2)  meth: Compiler_SVG
+914	142 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+915	142 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+917	142 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+918	142 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+919	142 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+921	142 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+923	142 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+925	142 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+927	142 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841AF20B000007FB844103AC0";n/a). < ms
+929	142 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+931	142 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+933	142 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+935	142 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+937	142 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841AF20B000007FB844103AC0"). < ms
+939	142 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841AF20B000007FB844103208";"d4:brightness0.3"). < ms
+941	142 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841AF20B000007FB844103208";"svg/defs"). < ms
+943	142 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841AF20B000007FB844103748";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+945	142 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841AF20B000007FB844104118";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+947	142 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841AF20B000007FB844103AC0";"filter";"url(#d4:brightness0.3)"). < ms
+948	142 p=1 puid=3	(2)  meth: Component_errorHandler
+950	142 p=1 puid=3	(3)  cmd: Method called on error. < ms
+952	142 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+953	142 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+955	142 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+956	142 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+957	143 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+958	143 p=1 puid=3	(2)  meth: Compiler_SVG
+960	143 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+961	143 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+963	143 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+964	143 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+965	143 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+967	143 p=1 puid=3	(2)  cmd: Current method name. < ms
+968	143 p=1 puid=3	(2)  meth: xml_referenceValid
+970	143 p=1 puid=3	(3)  cmd: Method called on error. < ms
+972	143 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+974	143 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841AF20B000007FB844103208"). < ms
+976	143 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+977	143 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+979	143 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+981	143 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+983	143 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+985	143 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841AF20B000007FB844103208";n/a;2). < ms
+986	143 p=1 puid=3	(2)  meth: Component_errorHandler
+988	143 p=1 puid=3	(3)  cmd: Method called on error. < ms
+990	143 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+991	143 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+993	143 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+994	143 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+996	143 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+998	143 p=1 puid=3	(1)  cmd: True. < ms
+1000	143 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+1002	143 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+1004	143 p=1 puid=3	(1)  cmd: Form. < ms
+1006	143 p=1 puid=3	(1)  cmd: Form. < ms
+1008	143 p=1 puid=3	(1)  cmd: True. < ms
+1009	143 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+1011	144 p=1 puid=3	(2)  cmd: Count parameters. < ms
+1013	144 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+1015	144 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+1017	144 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+1019	144 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+1021	144 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+1023	144 p=1 puid=3	(2)  cmd: Form. < ms
+1025	144 p=1 puid=3	(2)  cmd: Null. < ms
+1027	144 p=1 puid=3	(2)  cmd: Form. < ms
+1029	144 p=1 puid=3	(2)  cmd: Form. < ms
+1031	144 p=1 puid=3	(2)  cmd: New collection. < ms
+1033	144 p=1 puid=3	(2)  cmd: Form. < ms
+1034	144 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+1035	144 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 143 ms
+1037	144 p=1 puid=3	(0)  cmd: Form. < ms
+1039	144 p=1 puid=3	(0)  cmd: Null. < ms
+1041	144 p=1 puid=3	(0)  cmd: Form. < ms
+1043	144 p=1 puid=3	(0)  cmd: Null. < ms
+1045	144 p=1 puid=3	(0)  cmd: True. < ms
+1047	144 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+1049	144 p=1 puid=3	(0)  cmd: Form. < ms
+1051	144 p=1 puid=3	(0)  cmd: Null. < ms
+1053	144 p=1 puid=3	(0)  cmd: True. < ms
+1055	144 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms
+-- Startup on: Tuesday, April 24, 2018 11:54:58 AM --
+1058	0 p=1 puid=3	(0)  cmd: Form. < ms
+1060	0 p=1 puid=3	(0)  cmd: Null. < ms
+1062	0 p=1 puid=3	(0)  cmd: Form event. < ms
+1064	0 p=1 puid=3	(0)  cmd: Form. < ms
+1066	0 p=1 puid=3	(0)  cmd: Null. < ms
+1068	0 p=1 puid=3	(0)  cmd: Form. < ms
+1070	0 p=1 puid=3	(0)  cmd: Form. < ms
+1071	0 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+1073	0 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+1075	1 p=1 puid=3	(1)  cmd: Form. < ms
+1077	7 p=1 puid=3	(1)  cmd: Picture size(3 058 KB). < ms
+1079	11 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(3 058 KB;$breit;$hoch). 3 ms
+1080	11 p=1 puid=3	(1)  meth: SVG_New
+1081	11 p=1 puid=3	(2)  meth: Compiler_SVG
+1083	11 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1084	11 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1086	11 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1087	11 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1088	11 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1090	11 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1092	11 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+1094	12 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841878BB000007FB844AA2408";"UTF-8";Wahr). < ms
+1096	12 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+1098	12 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841878BB000007FB844AA2408";4;2). < ms
+1100	12 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841878BB000007FB844AA2408";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1102	12 p=1 puid=3	(2)  cmd: String(1920;"&xml"). < ms
+1104	12 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841878BB000007FB844AA2408";"width";"1920"). < ms
+1106	12 p=1 puid=3	(2)  cmd: String(1080;"&xml"). < ms
+1108	12 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841878BB000007FB844AA2408";"height";"1080"). < ms
+1110	12 p=1 puid=3	(2)  cmd: Structure file. < ms
+1112	12 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+1114	12 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+1116	12 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+1118	12 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841878BB000007FB844AA2408";"/svg/defs";"id";"4D"). < ms
+1120	12 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841878BB000007FB844AA2948";"id";"4D"). < ms
+1122	12 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841878BB000007FB844AA2408"). < ms
+1123	12 p=1 puid=3	(2)  meth: Component_errorHandler
+1125	12 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1127	12 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1128	12 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1130	12 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1131	12 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+1132	12 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+1133	12 p=1 puid=3	(2)  meth: Compiler_SVG
+1135	12 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1136	12 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1138	12 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1139	12 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1140	12 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1142	12 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+1143	12 p=1 puid=3	(2)  meth: xml_referenceValid
+1145	12 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1147	12 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1149	12 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841878BB000007FB844AA2408"). < ms
+1151	12 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1152	12 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1154	12 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1156	13 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1158	13 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1160	13 p=1 puid=3	(2)  cmd: Picture size(3 058 KB). < ms
+1162	13 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+1164	16 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 3 ms
+1166	24 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 7 ms
+1168	24 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). < ms
+1170	29 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841878BB000007FB844AA2408"). < ms
+1172	29 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841878BB000007FB844AA2408";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1174	38 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841878BB000007FB844AA2408";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAIAAABnsVYUAAAAAXNSR0IArs4c6QAAQABJREFUeAFM3UlzJEmSH...";"x";0;"y";0;"width";1920;"height";1080). 2 ms
+1175	39 p=1 puid=3	(2)  meth: Component_errorHandler
+1177	39 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1179	39 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1180	39 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1182	39 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1183	39 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 26 ms
+1184	39 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+1186	39 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+1188	39 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1189	39 p=1 puid=3	(2)  meth: Compiler_SVG
+1191	39 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1192	39 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1194	39 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1195	39 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1196	39 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1198	39 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+1200	39 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+1202	39 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+1204	39 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841878BB000007FB844AA2CC0";n/a). < ms
+1206	39 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+1208	39 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+1210	39 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+1212	39 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1214	39 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841878BB000007FB844AA2CC0"). < ms
+1216	39 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841878BB000007FB844AA2408";"d4:brightness0.3"). < ms
+1218	39 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841878BB000007FB844AA2408";"svg/defs"). < ms
+1220	39 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841878BB000007FB844AA2948";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+1222	39 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841878BB000007FB844AA3318";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+1224	39 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841878BB000007FB844AA2CC0";"filter";"url(#d4:brightness0.3)"). < ms
+1225	39 p=1 puid=3	(2)  meth: Component_errorHandler
+1227	39 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1229	39 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1230	39 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1232	39 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1233	39 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+1234	39 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+1235	39 p=1 puid=3	(2)  meth: Compiler_SVG
+1237	39 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1238	39 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1240	39 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1241	40 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1242	40 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1244	40 p=1 puid=3	(2)  cmd: Current method name. < ms
+1245	40 p=1 puid=3	(2)  meth: xml_referenceValid
+1247	40 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1249	40 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1251	40 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841878BB000007FB844AA2408"). < ms
+1253	40 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1254	40 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1256	40 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1258	40 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1260	40 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1262	40 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841878BB000007FB844AA2408";n/a;2). < ms
+1263	40 p=1 puid=3	(2)  meth: Component_errorHandler
+1265	40 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1267	40 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1268	40 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1270	40 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1271	40 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+1273	40 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+1275	40 p=1 puid=3	(1)  cmd: True. < ms
+1277	40 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+1279	40 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+1281	40 p=1 puid=3	(1)  cmd: Form. < ms
+1283	40 p=1 puid=3	(1)  cmd: Form. < ms
+1285	40 p=1 puid=3	(1)  cmd: True. < ms
+1286	40 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+1288	40 p=1 puid=3	(2)  cmd: Count parameters. < ms
+1290	41 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+1292	41 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+1294	41 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+1296	41 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+1298	41 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+1300	41 p=1 puid=3	(2)  cmd: Form. < ms
+1302	41 p=1 puid=3	(2)  cmd: Null. < ms
+1304	41 p=1 puid=3	(2)  cmd: Form. < ms
+1306	41 p=1 puid=3	(2)  cmd: Form. < ms
+1308	41 p=1 puid=3	(2)  cmd: New collection. < ms
+1310	41 p=1 puid=3	(2)  cmd: Form. < ms
+1311	41 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+1312	41 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 40 ms
+1314	41 p=1 puid=3	(0)  cmd: Form. < ms
+1316	41 p=1 puid=3	(0)  cmd: Null. < ms
+1318	41 p=1 puid=3	(0)  cmd: Form. < ms
+1320	41 p=1 puid=3	(0)  cmd: Null. < ms
+1322	41 p=1 puid=3	(0)  cmd: True. < ms
+1324	41 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+1326	41 p=1 puid=3	(0)  cmd: Form. < ms
+1328	41 p=1 puid=3	(0)  cmd: Null. < ms
+1330	41 p=1 puid=3	(0)  cmd: True. < ms
+1332	41 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms
+-- Startup on: Tuesday, April 24, 2018 11:54:59 AM --
+1335	0 p=1 puid=3	(0)  cmd: Form. < ms
+1337	0 p=1 puid=3	(0)  cmd: Null. < ms
+1339	0 p=1 puid=3	(0)  cmd: Form event. < ms
+1341	0 p=1 puid=3	(0)  cmd: Form. < ms
+1343	0 p=1 puid=3	(0)  cmd: Null. < ms
+1345	0 p=1 puid=3	(0)  cmd: Form. < ms
+1347	0 p=1 puid=3	(0)  cmd: Form. < ms
+1348	0 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+1350	0 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+1352	0 p=1 puid=3	(1)  cmd: Form. < ms
+1354	19 p=1 puid=3	(1)  cmd: Picture size(11 038 KB). < ms
+1356	30 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(11 038 KB;$breit;$hoch). 10 ms
+1357	30 p=1 puid=3	(1)  meth: SVG_New
+1358	30 p=1 puid=3	(2)  meth: Compiler_SVG
+1360	30 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1361	30 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1363	30 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1364	30 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1365	30 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1367	30 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1369	30 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+1371	30 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841A1C96000007FB844347008";"UTF-8";Wahr). < ms
+1373	30 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+1375	30 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841A1C96000007FB844347008";4;2). < ms
+1377	30 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB844347008";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1379	30 p=1 puid=3	(2)  cmd: String(3840;"&xml"). < ms
+1381	30 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB844347008";"width";"3840"). < ms
+1383	30 p=1 puid=3	(2)  cmd: String(2160;"&xml"). < ms
+1385	30 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB844347008";"height";"2160"). < ms
+1387	30 p=1 puid=3	(2)  cmd: Structure file. < ms
+1389	30 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+1391	30 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+1393	31 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+1395	31 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB844347008";"/svg/defs";"id";"4D"). < ms
+1397	31 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB844347548";"id";"4D"). < ms
+1399	31 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841A1C96000007FB844347008"). < ms
+1400	31 p=1 puid=3	(2)  meth: Component_errorHandler
+1402	31 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1404	31 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1405	31 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1407	31 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1408	31 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+1409	31 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+1410	31 p=1 puid=3	(2)  meth: Compiler_SVG
+1412	31 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1413	31 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1415	31 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1416	31 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1417	31 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1419	31 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+1420	31 p=1 puid=3	(2)  meth: xml_referenceValid
+1422	31 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1424	31 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1426	31 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841A1C96000007FB844347008"). < ms
+1428	31 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1429	31 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1431	31 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1433	31 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1435	31 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1437	31 p=1 puid=3	(2)  cmd: Picture size(11 038 KB). < ms
+1439	31 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+1441	45 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 13 ms
+1443	78 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 33 ms
+1445	79 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). 1 ms
+1447	100 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841A1C96000007FB844347008"). < ms
+1449	101 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB844347008";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1451	140 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB844347008";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAADwAAAAhwCAIAAAAf3FwlAAAAAXNSR0IArs4c6QAAQABJREFUeAF03dmuZUmOr...";"x";0;"y";0;"width";3840;"height";2160). 14 ms
+1452	140 p=1 puid=3	(2)  meth: Component_errorHandler
+1454	140 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1456	140 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1457	140 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1459	140 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1460	140 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 109 ms
+1461	143 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+1463	143 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+1465	143 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1466	143 p=1 puid=3	(2)  meth: Compiler_SVG
+1468	143 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1469	143 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1471	143 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1472	143 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1473	143 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1475	143 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+1477	143 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+1479	143 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+1481	143 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841A1C96000007FB8443478C0";n/a). < ms
+1483	143 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+1485	143 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+1487	143 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+1489	143 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1491	143 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841A1C96000007FB8443478C0"). < ms
+1493	143 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841A1C96000007FB844347008";"d4:brightness0.3"). < ms
+1495	144 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841A1C96000007FB844347008";"svg/defs"). < ms
+1497	144 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB844347548";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+1499	144 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB844347F18";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+1501	144 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443478C0";"filter";"url(#d4:brightness0.3)"). < ms
+1502	144 p=1 puid=3	(2)  meth: Component_errorHandler
+1504	144 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1506	144 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1507	144 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1509	144 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1510	144 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+1511	144 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+1512	144 p=1 puid=3	(2)  meth: Compiler_SVG
+1514	144 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1515	144 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1517	144 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1518	144 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1519	144 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1521	144 p=1 puid=3	(2)  cmd: Current method name. < ms
+1522	144 p=1 puid=3	(2)  meth: xml_referenceValid
+1524	144 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1526	144 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1528	144 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841A1C96000007FB844347008"). < ms
+1530	144 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1531	144 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1533	144 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1535	144 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1537	144 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1539	144 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841A1C96000007FB844347008";n/a;2). < ms
+1540	144 p=1 puid=3	(2)  meth: Component_errorHandler
+1542	144 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1544	144 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1545	144 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1547	144 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1548	144 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+1550	144 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+1552	144 p=1 puid=3	(1)  cmd: True. < ms
+1554	144 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+1556	144 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+1558	144 p=1 puid=3	(1)  cmd: Form. < ms
+1560	145 p=1 puid=3	(1)  cmd: Form. < ms
+1562	145 p=1 puid=3	(1)  cmd: True. < ms
+1563	145 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+1565	145 p=1 puid=3	(2)  cmd: Count parameters. < ms
+1567	145 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+1569	145 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+1571	145 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+1573	145 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+1575	145 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+1577	145 p=1 puid=3	(2)  cmd: Form. < ms
+1579	145 p=1 puid=3	(2)  cmd: Null. < ms
+1581	145 p=1 puid=3	(2)  cmd: Form. < ms
+1583	145 p=1 puid=3	(2)  cmd: Form. < ms
+1585	145 p=1 puid=3	(2)  cmd: New collection. < ms
+1587	145 p=1 puid=3	(2)  cmd: Form. < ms
+1588	145 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+1589	145 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 144 ms
+1591	145 p=1 puid=3	(0)  cmd: Form. < ms
+1593	145 p=1 puid=3	(0)  cmd: Null. < ms
+1595	145 p=1 puid=3	(0)  cmd: Form. < ms
+1597	145 p=1 puid=3	(0)  cmd: Null. < ms
+1599	145 p=1 puid=3	(0)  cmd: True. < ms
+1601	145 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+1603	145 p=1 puid=3	(0)  cmd: Form. < ms
+1605	145 p=1 puid=3	(0)  cmd: Null. < ms
+1607	145 p=1 puid=3	(0)  cmd: True. < ms
+1609	145 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms
+-- Startup on: Tuesday, April 24, 2018 11:55:02 AM --
+1612	0 p=1 puid=3	(0)  cmd: Form. < ms
+1614	0 p=1 puid=3	(0)  cmd: Null. < ms
+1616	0 p=1 puid=3	(0)  cmd: Form event. < ms
+1618	0 p=1 puid=3	(0)  cmd: Form. < ms
+1620	0 p=1 puid=3	(0)  cmd: Null. < ms
+1622	1 p=1 puid=3	(0)  cmd: Form. < ms
+1624	1 p=1 puid=3	(0)  cmd: Form. < ms
+1625	1 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+1627	1 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+1629	1 p=1 puid=3	(1)  cmd: Form. < ms
+1631	32 p=1 puid=3	(1)  cmd: Picture size(17 026 KB). < ms
+1633	55 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(17 026 KB;$breit;$hoch). 22 ms
+1634	55 p=1 puid=3	(1)  meth: SVG_New
+1635	55 p=1 puid=3	(2)  meth: Compiler_SVG
+1637	55 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1638	55 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1640	55 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1641	56 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1642	56 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1644	56 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1646	56 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+1648	56 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841A1C96000007FB8443A6A08";"UTF-8";Wahr). < ms
+1650	56 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+1652	56 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841A1C96000007FB8443A6A08";4;2). < ms
+1654	56 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443A6A08";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1656	56 p=1 puid=3	(2)  cmd: String(3840;"&xml"). < ms
+1658	56 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443A6A08";"width";"3840"). < ms
+1660	56 p=1 puid=3	(2)  cmd: String(2160;"&xml"). < ms
+1662	56 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443A6A08";"height";"2160"). < ms
+1664	56 p=1 puid=3	(2)  cmd: Structure file. < ms
+1666	56 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+1668	56 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+1670	56 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+1672	56 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB8443A6A08";"/svg/defs";"id";"4D"). < ms
+1674	56 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443A6F48";"id";"4D"). < ms
+1676	56 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841A1C96000007FB8443A6A08"). < ms
+1677	56 p=1 puid=3	(2)  meth: Component_errorHandler
+1679	56 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1681	56 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1682	56 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1684	56 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1685	56 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+1686	56 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+1687	56 p=1 puid=3	(2)  meth: Compiler_SVG
+1689	56 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1690	56 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1692	56 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1693	56 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1694	56 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1696	56 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+1697	56 p=1 puid=3	(2)  meth: xml_referenceValid
+1699	57 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1701	57 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1703	57 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841A1C96000007FB8443A6A08"). < ms
+1705	57 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1706	57 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1708	57 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1710	57 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1712	57 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1714	57 p=1 puid=3	(2)  cmd: Picture size(17 026 KB). < ms
+1716	57 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+1718	80 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 23 ms
+1720	144 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 64 ms
+1722	146 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). 1 ms
+1724	185 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841A1C96000007FB8443A6A08"). < ms
+1726	186 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443A6A08";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1728	253 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB8443A6A08";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAADwAAAAhwCAIAAAAf3FwlAAAAAXNSR0IArs4c6QAAQABJREFUeAEsvPeOZWmW3...";"x";0;"y";0;"width";3840;"height";2160). 21 ms
+1729	253 p=1 puid=3	(2)  meth: Component_errorHandler
+1731	253 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1733	253 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1734	253 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1736	253 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1737	253 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 196 ms
+1738	258 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+1740	258 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+1742	258 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1743	258 p=1 puid=3	(2)  meth: Compiler_SVG
+1745	258 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1746	258 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1748	258 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1749	258 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1750	258 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1752	258 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+1754	258 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+1756	258 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+1758	258 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841A1C96000007FB8443A72C0";n/a). < ms
+1760	258 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+1762	258 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+1764	258 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+1766	258 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1768	258 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841A1C96000007FB8443A72C0"). < ms
+1770	258 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841A1C96000007FB8443A6A08";"d4:brightness0.3"). < ms
+1772	258 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841A1C96000007FB8443A6A08";"svg/defs"). < ms
+1774	258 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB8443A6F48";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+1776	258 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841A1C96000007FB8443A7918";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+1778	258 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841A1C96000007FB8443A72C0";"filter";"url(#d4:brightness0.3)"). < ms
+1779	258 p=1 puid=3	(2)  meth: Component_errorHandler
+1781	258 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1783	258 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1784	258 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1786	258 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1787	258 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+1788	259 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+1789	259 p=1 puid=3	(2)  meth: Compiler_SVG
+1791	259 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1792	259 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1794	259 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1795	259 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1796	259 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1798	259 p=1 puid=3	(2)  cmd: Current method name. < ms
+1799	259 p=1 puid=3	(2)  meth: xml_referenceValid
+1801	259 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1803	259 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1805	259 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841A1C96000007FB8443A6A08"). < ms
+1807	259 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1808	259 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1810	259 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1812	259 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1814	259 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1816	259 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841A1C96000007FB8443A6A08";n/a;2). < ms
+1817	259 p=1 puid=3	(2)  meth: Component_errorHandler
+1819	259 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1821	259 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1822	259 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1824	259 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1825	259 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+1827	259 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+1829	259 p=1 puid=3	(1)  cmd: True. < ms
+1831	259 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+1833	259 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+1835	259 p=1 puid=3	(1)  cmd: Form. < ms
+1837	260 p=1 puid=3	(1)  cmd: Form. < ms
+1839	260 p=1 puid=3	(1)  cmd: True. < ms
+1840	260 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+1842	260 p=1 puid=3	(2)  cmd: Count parameters. < ms
+1844	260 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+1846	260 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+1848	260 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+1850	260 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+1852	260 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+1854	260 p=1 puid=3	(2)  cmd: Form. < ms
+1856	260 p=1 puid=3	(2)  cmd: Null. < ms
+1858	260 p=1 puid=3	(2)  cmd: Form. < ms
+1860	260 p=1 puid=3	(2)  cmd: Form. < ms
+1862	260 p=1 puid=3	(2)  cmd: New collection. < ms
+1864	260 p=1 puid=3	(2)  cmd: Form. < ms
+1865	260 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+1866	260 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 259 ms
+1868	260 p=1 puid=3	(0)  cmd: Form. < ms
+1870	260 p=1 puid=3	(0)  cmd: Null. < ms
+1872	260 p=1 puid=3	(0)  cmd: Form. < ms
+1874	260 p=1 puid=3	(0)  cmd: Null. < ms
+1876	260 p=1 puid=3	(0)  cmd: True. < ms
+1878	260 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+1880	260 p=1 puid=3	(0)  cmd: Form. < ms
+1882	260 p=1 puid=3	(0)  cmd: Null. < ms
+1884	260 p=1 puid=3	(0)  cmd: True. < ms
+1886	260 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms
+-- Startup on: Tuesday, April 24, 2018 11:55:06 AM --
+1889	0 p=1 puid=3	(0)  cmd: Form. < ms
+1891	1 p=1 puid=3	(0)  cmd: Null. < ms
+1893	1 p=1 puid=3	(0)  cmd: Form event. < ms
+1895	1 p=1 puid=3	(0)  cmd: Form. < ms
+1897	1 p=1 puid=3	(0)  cmd: Null. < ms
+1899	1 p=1 puid=3	(0)  cmd: Form. < ms
+1901	1 p=1 puid=3	(0)  cmd: Form. < ms
+1902	1 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+1904	1 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+1906	1 p=1 puid=3	(1)  cmd: Form. < ms
+1908	18 p=1 puid=3	(1)  cmd: Picture size(17 026 KB). < ms
+1910	41 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(17 026 KB;$breit;$hoch). 23 ms
+1911	42 p=1 puid=3	(1)  meth: SVG_New
+1912	42 p=1 puid=3	(2)  meth: Compiler_SVG
+1914	42 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1915	42 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1917	42 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1918	42 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1919	42 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1921	42 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1923	42 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+1925	42 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841C41BE000007FB843BE2A08";"UTF-8";Wahr). < ms
+1927	42 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+1929	42 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841C41BE000007FB843BE2A08";4;2). < ms
+1931	42 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841C41BE000007FB843BE2A08";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+1933	42 p=1 puid=3	(2)  cmd: String(3840;"&xml"). < ms
+1935	42 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841C41BE000007FB843BE2A08";"width";"3840"). < ms
+1937	42 p=1 puid=3	(2)  cmd: String(2160;"&xml"). < ms
+1939	42 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841C41BE000007FB843BE2A08";"height";"2160"). < ms
+1941	42 p=1 puid=3	(2)  cmd: Structure file. < ms
+1943	43 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+1945	43 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+1947	43 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+1949	43 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841C41BE000007FB843BE2A08";"/svg/defs";"id";"4D"). < ms
+1951	43 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841C41BE000007FB843BE2F48";"id";"4D"). < ms
+1953	43 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841C41BE000007FB843BE2A08"). < ms
+1954	43 p=1 puid=3	(2)  meth: Component_errorHandler
+1956	43 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1958	43 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1959	43 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+1961	43 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+1962	43 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+1963	43 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+1964	43 p=1 puid=3	(2)  meth: Compiler_SVG
+1966	43 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+1967	43 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+1969	43 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+1970	43 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+1971	43 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+1973	43 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+1974	43 p=1 puid=3	(2)  meth: xml_referenceValid
+1976	43 p=1 puid=3	(3)  cmd: Method called on error. < ms
+1978	43 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+1980	43 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841C41BE000007FB843BE2A08"). < ms
+1982	43 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+1983	43 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+1985	43 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+1987	43 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+1989	43 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+1991	43 p=1 puid=3	(2)  cmd: Picture size(17 026 KB). < ms
+1993	43 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+1995	67 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 23 ms
+1997	120 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 52 ms
+1999	121 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). 1 ms
+2001	154 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841C41BE000007FB843BE2A08"). < ms
+2003	156 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841C41BE000007FB843BE2A08";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+2005	229 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841C41BE000007FB843BE2A08";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAADwAAAAhwCAIAAAAf3FwlAAAAAXNSR0IArs4c6QAAQABJREFUeAEsvPeOZWmW3...";"x";0;"y";0;"width";3840;"height";2160). 23 ms
+2006	229 p=1 puid=3	(2)  meth: Component_errorHandler
+2008	229 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2010	229 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2011	229 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2013	230 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2014	230 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 186 ms
+2015	234 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+2017	234 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+2019	234 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+2020	234 p=1 puid=3	(2)  meth: Compiler_SVG
+2022	234 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+2023	234 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+2025	234 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+2026	234 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+2027	234 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+2029	234 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+2031	234 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+2033	234 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+2035	234 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841C41BE000007FB843BE32C0";n/a). < ms
+2037	234 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+2039	234 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+2041	234 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+2043	234 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+2045	234 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841C41BE000007FB843BE32C0"). < ms
+2047	234 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841C41BE000007FB843BE2A08";"d4:brightness0.3"). < ms
+2049	234 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841C41BE000007FB843BE2A08";"svg/defs"). < ms
+2051	235 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841C41BE000007FB843BE2F48";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+2053	235 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841C41BE000007FB843BE3918";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+2055	235 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841C41BE000007FB843BE32C0";"filter";"url(#d4:brightness0.3)"). < ms
+2056	235 p=1 puid=3	(2)  meth: Component_errorHandler
+2058	235 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2060	235 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2061	235 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2063	235 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2064	235 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+2065	235 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+2066	235 p=1 puid=3	(2)  meth: Compiler_SVG
+2068	235 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+2069	235 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+2071	235 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+2072	235 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+2073	235 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+2075	235 p=1 puid=3	(2)  cmd: Current method name. < ms
+2076	235 p=1 puid=3	(2)  meth: xml_referenceValid
+2078	235 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2080	235 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+2082	235 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841C41BE000007FB843BE2A08"). < ms
+2084	235 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2085	235 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+2087	235 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+2089	235 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+2091	235 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+2093	235 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841C41BE000007FB843BE2A08";n/a;2). < ms
+2094	235 p=1 puid=3	(2)  meth: Component_errorHandler
+2096	235 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2098	235 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2099	235 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2101	235 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2102	235 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+2104	235 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+2106	235 p=1 puid=3	(1)  cmd: True. < ms
+2108	235 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+2110	235 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+2112	235 p=1 puid=3	(1)  cmd: Form. < ms
+2114	236 p=1 puid=3	(1)  cmd: Form. < ms
+2116	236 p=1 puid=3	(1)  cmd: True. < ms
+2117	236 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+2119	236 p=1 puid=3	(2)  cmd: Count parameters. < ms
+2121	236 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+2123	236 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+2125	236 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+2127	236 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+2129	236 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+2131	236 p=1 puid=3	(2)  cmd: Form. < ms
+2133	236 p=1 puid=3	(2)  cmd: Null. < ms
+2135	236 p=1 puid=3	(2)  cmd: Form. < ms
+2137	236 p=1 puid=3	(2)  cmd: Form. < ms
+2139	236 p=1 puid=3	(2)  cmd: New collection. < ms
+2141	236 p=1 puid=3	(2)  cmd: Form. < ms
+2142	236 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+2143	236 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 235 ms
+2145	236 p=1 puid=3	(0)  cmd: Form. < ms
+2147	236 p=1 puid=3	(0)  cmd: Null. < ms
+2149	236 p=1 puid=3	(0)  cmd: Form. < ms
+2151	236 p=1 puid=3	(0)  cmd: Null. < ms
+2153	236 p=1 puid=3	(0)  cmd: True. < ms
+2155	236 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+2157	236 p=1 puid=3	(0)  cmd: Form. < ms
+2159	236 p=1 puid=3	(0)  cmd: Null. < ms
+2161	236 p=1 puid=3	(0)  cmd: True. < ms
+2163	236 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms
+-- Startup on: Tuesday, April 24, 2018 11:55:08 AM --
+2166	0 p=1 puid=3	(0)  cmd: Form. < ms
+2168	0 p=1 puid=3	(0)  cmd: Null. < ms
+2170	0 p=1 puid=3	(0)  cmd: Form event. < ms
+2172	1 p=1 puid=3	(0)  cmd: Form. < ms
+2174	1 p=1 puid=3	(0)  cmd: Null. < ms
+2176	1 p=1 puid=3	(0)  cmd: Form. < ms
+2178	1 p=1 puid=3	(0)  cmd: Form. < ms
+2179	1 p=1 puid=3	(0)  meth: Movie_Detail_OnLoad
+2181	1 p=1 puid=3	(1)  cmd: C_PICTURE($fanart). < ms
+2183	1 p=1 puid=3	(1)  cmd: Form. < ms
+2185	29 p=1 puid=3	(1)  cmd: Picture size(14 276 KB). < ms
+2187	45 p=1 puid=3	(1)  cmd: PICTURE PROPERTIES(14 276 KB;$breit;$hoch). 15 ms
+2188	45 p=1 puid=3	(1)  meth: SVG_New
+2189	45 p=1 puid=3	(2)  meth: Compiler_SVG
+2191	45 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+2192	45 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+2194	45 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+2195	45 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+2196	45 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+2198	45 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+2200	45 p=1 puid=3	(2)  cmd: DOM Create XML Ref("svg";"http://www.w3.org/2000/svg"). < ms
+2202	45 p=1 puid=3	(2)  cmd: DOM SET XML DECLARATION("00007FB841EB640000007FB84487A408";"UTF-8";Wahr). < ms
+2204	45 p=1 puid=3	(2)  cmd: Num(Falsch). < ms
+2206	45 p=1 puid=3	(2)  cmd: XML SET OPTIONS("00007FB841EB640000007FB84487A408";4;2). < ms
+2208	45 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841EB640000007FB84487A408";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+2210	45 p=1 puid=3	(2)  cmd: String(3840;"&xml"). < ms
+2212	45 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841EB640000007FB84487A408";"width";"3840"). < ms
+2214	45 p=1 puid=3	(2)  cmd: String(2160;"&xml"). < ms
+2216	45 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841EB640000007FB84487A408";"height";"2160"). < ms
+2218	45 p=1 puid=3	(2)  cmd: Structure file. < ms
+2220	46 p=1 puid=3	(2)  cmd: Get 4D folder(4). < ms
+2222	46 p=1 puid=3	(2)  cmd: Replace string("Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:4D SVG.4DC";"Macintosh HD:Applications:4D v17.0:4D.app:Contents:Components:4D SVG.4dbase:";""). < ms
+2224	46 p=1 puid=3	(2)  cmd: Replace string("4D SVG.4DC";".4DB";""). < ms
+2226	46 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841EB640000007FB84487A408";"/svg/defs";"id";"4D"). < ms
+2228	46 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841EB640000007FB84487A948";"id";"4D"). < ms
+2230	46 p=1 puid=3	(2)  cmd: APPEND TO ARRAY(<>SVG_TTXT_REFERENCES;"00007FB841EB640000007FB84487A408"). < ms
+2231	46 p=1 puid=3	(2)  meth: Component_errorHandler
+2233	46 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2235	46 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2236	46 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2238	46 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2239	46 p=1 puid=3	(1)  end_meth: SVG_New. < ms
+2240	46 p=1 puid=3	(1)  meth: SVG_New_embedded_image
+2241	46 p=1 puid=3	(2)  meth: Compiler_SVG
+2243	46 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+2244	46 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+2246	46 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+2247	46 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+2248	46 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+2250	46 p=1 puid=3	(2)  cmd: Asserted(Wahr;"Missing parameters"). < ms
+2251	46 p=1 puid=3	(2)  meth: xml_referenceValid
+2253	46 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2255	46 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+2257	46 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841EB640000007FB84487A408"). < ms
+2259	46 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2260	46 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+2262	46 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+2264	46 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+2266	46 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+2268	46 p=1 puid=3	(2)  cmd: Picture size(14 276 KB). < ms
+2270	46 p=1 puid=3	(2)  cmd: PICTURE PROPERTIES(n/a;n/a;n/a). < ms
+2272	64 p=1 puid=3	(2)  cmd: PICTURE TO BLOB(n/a;n/a;".png"). 17 ms
+2274	109 p=1 puid=3	(2)  cmd: BASE64 ENCODE(n/a;n/a). 44 ms
+2276	111 p=1 puid=3	(2)  cmd: SET BLOB SIZE(n/a;0). 1 ms
+2278	139 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841EB640000007FB84487A408"). < ms
+2280	139 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841EB640000007FB84487A408";"xmlns:xlink";"http://www.w3.org/1999/xlink"). < ms
+2282	195 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841EB640000007FB84487A408";"image";"xlink:href";"data:;base64,iVBORw0KGgoAAAANSUhEUgAADwAAAAhwCAIAAAAf3FwlAAAAAXNSR0IArs4c6QAAQABJREFUeAFM3XmTJEl2G...";"x";0;"y";0;"width";3840;"height";2160). 17 ms
+2283	197 p=1 puid=3	(2)  meth: Component_errorHandler
+2285	197 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2287	197 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2288	197 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2290	197 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2291	197 p=1 puid=3	(1)  end_meth: SVG_New_embedded_image. 151 ms
+2292	201 p=1 puid=3	(1)  meth: SVG_SET_BRIGHTNESS
+2294	201 p=1 puid=3	(2)  cmd: Get localized string("error_missingParameter"). < ms
+2296	201 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+2297	201 p=1 puid=3	(2)  meth: Compiler_SVG
+2299	201 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+2300	201 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+2302	201 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+2303	201 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+2304	201 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+2306	201 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+2308	201 p=1 puid=3	(2)  cmd: String(0,3;"&xml"). < ms
+2310	201 p=1 puid=3	(2)  cmd: Replace string("{%} 0 0 0 0 0 {%} 0 0 0 0 0 {%} 0 0 0 0 0 1 0";"{%}";"0.3"). < ms
+2312	201 p=1 puid=3	(2)  cmd: DOM GET XML ELEMENT NAME("00007FB841EB640000007FB84487ACC0";n/a). < ms
+2314	201 p=1 puid=3	(2)  cmd: ARRAY TEXT(n/a;0). < ms
+2316	201 p=1 puid=3	(2)  cmd: LIST TO ARRAY("Containers";n/a). < ms
+2318	201 p=1 puid=3	(2)  cmd: Find in array(n/a;"image"). < ms
+2320	201 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+2322	201 p=1 puid=3	(2)  cmd: DOM Get root XML element("00007FB841EB640000007FB84487ACC0"). < ms
+2324	201 p=1 puid=3	(2)  cmd: DOM Find XML element by ID("00007FB841EB640000007FB84487A408";"d4:brightness0.3"). < ms
+2326	201 p=1 puid=3	(2)  cmd: DOM Find XML element("00007FB841EB640000007FB84487A408";"svg/defs"). < ms
+2328	201 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841EB640000007FB84487A948";"filter";"id";"d4:brightness0.3";"filterUnits";"objectBoundingBox";"x";"0%";"y";"0%";"width";"100%";"height";"100%"). < ms
+2330	201 p=1 puid=3	(2)  cmd: DOM Create XML element("00007FB841EB640000007FB84487B318";"feColorMatrix";"type";"matrix";"in";"SourceGraphic";"values";"0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0"). < ms
+2332	202 p=1 puid=3	(2)  cmd: DOM SET XML ATTRIBUTE("00007FB841EB640000007FB84487ACC0";"filter";"url(#d4:brightness0.3)"). < ms
+2333	202 p=1 puid=3	(2)  meth: Component_errorHandler
+2335	202 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2337	202 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2338	202 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2340	202 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2341	202 p=1 puid=3	(1)  end_meth: SVG_SET_BRIGHTNESS. < ms
+2342	202 p=1 puid=3	(1)  meth: SVG_Export_to_picture
+2343	202 p=1 puid=3	(2)  meth: Compiler_SVG
+2345	202 p=1 puid=3	(3)  cmd: Undefined(Wahr). < ms
+2346	202 p=1 puid=3	(3)  meth: SVG_SET_OPTIONS
+2348	202 p=1 puid=3	(4)  cmd: SET ASSERT ENABLED(Wahr;*). < ms
+2349	202 p=1 puid=3	(3)  end_meth: SVG_SET_OPTIONS. < ms
+2350	202 p=1 puid=3	(2)  end_meth: Compiler_SVG. < ms
+2352	202 p=1 puid=3	(2)  cmd: Current method name. < ms
+2353	202 p=1 puid=3	(2)  meth: xml_referenceValid
+2355	202 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2357	202 p=1 puid=3	(3)  cmd: ON ERR CALL("xml_noError"). < ms
+2359	202 p=1 puid=3	(3)  cmd: DOM Get root XML element("00007FB841EB640000007FB84487A408"). < ms
+2361	202 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2362	202 p=1 puid=3	(2)  end_meth: xml_referenceValid. < ms
+2364	202 p=1 puid=3	(2)  cmd: Get localized string("error_badReference"). < ms
+2366	202 p=1 puid=3	(2)  cmd: Asserted(Wahr;""). < ms
+2368	202 p=1 puid=3	(2)  meth: Component_errorHandler. < ms
+2370	202 p=1 puid=3	(2)  cmd: SVG EXPORT TO PICTURE("00007FB841EB640000007FB84487A408";n/a;2). < ms
+2371	202 p=1 puid=3	(2)  meth: Component_errorHandler
+2373	202 p=1 puid=3	(3)  cmd: Method called on error. < ms
+2375	202 p=1 puid=3	(3)  cmd: ON ERR CALL(""). < ms
+2376	202 p=1 puid=3	(2)  end_meth: Component_errorHandler. < ms
+2378	202 p=1 puid=3	(2)  cmd: ASSERT(Wahr;"Component_errorHandler ("deinit")"). < ms
+2379	202 p=1 puid=3	(1)  end_meth: SVG_Export_to_picture. < ms
+2381	202 p=1 puid=3	(1)  cmd: OBJECT Get pointer(3;"fanart"). < ms
+2383	202 p=1 puid=3	(1)  cmd: True. < ms
+2385	202 p=1 puid=3	(1)  cmd: OBJECT SET VISIBLE(*;"Fanart";Wahr). < ms
+2387	202 p=1 puid=3	(1)  cmd: C_OBJECT($cast). < ms
+2389	202 p=1 puid=3	(1)  cmd: Form. < ms
+2391	203 p=1 puid=3	(1)  cmd: Form. < ms
+2393	203 p=1 puid=3	(1)  cmd: True. < ms
+2394	203 p=1 puid=3	(1)  meth: Listbox_Fill_Actors(Wahr)
+2396	203 p=1 puid=3	(2)  cmd: Count parameters. < ms
+2398	203 p=1 puid=3	(2)  cmd: LISTBOX Get number of columns(*;"Grid"). < ms
+2400	203 p=1 puid=3	(2)  cmd: OBJECT GET COORDINATES(*;"Grid";$left;$top;$right;$bottom). < ms
+2402	203 p=1 puid=3	(2)  cmd: C_LONGINT($column_soll). < ms
+2404	203 p=1 puid=3	(2)  cmd: C_COLLECTION($col). < ms
+2406	203 p=1 puid=3	(2)  cmd: C_LONGINT($nbmovies;$nbrows;$i). < ms
+2408	203 p=1 puid=3	(2)  cmd: Form. < ms
+2410	203 p=1 puid=3	(2)  cmd: Null. < ms
+2412	203 p=1 puid=3	(2)  cmd: Form. < ms
+2414	203 p=1 puid=3	(2)  cmd: Form. < ms
+2416	203 p=1 puid=3	(2)  cmd: New collection. < ms
+2418	203 p=1 puid=3	(2)  cmd: Form. < ms
+2419	203 p=1 puid=3	(1)  end_meth: Listbox_Fill_Actors(Wahr). < ms
+2420	203 p=1 puid=3	(0)  end_meth: Movie_Detail_OnLoad. 202 ms
+2422	203 p=1 puid=3	(0)  cmd: Form. < ms
+2424	203 p=1 puid=3	(0)  cmd: Null. < ms
+2426	203 p=1 puid=3	(0)  cmd: Form. < ms
+2428	203 p=1 puid=3	(0)  cmd: Null. < ms
+2430	203 p=1 puid=3	(0)  cmd: True. < ms
+2432	203 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bPrevious";Wahr). < ms
+2434	203 p=1 puid=3	(0)  cmd: Form. < ms
+2436	203 p=1 puid=3	(0)  cmd: Null. < ms
+2438	203 p=1 puid=3	(0)  cmd: True. < ms
+2440	203 p=1 puid=3	(0)  cmd: OBJECT SET ENABLED(*;"bNext";Wahr). < ms

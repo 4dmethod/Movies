@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Compact" name="Movies" structure="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.4DB" data="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.4DD" os="macOS Version 10.13.5 (Build 17F77)">
+<start_timer time="2018-06-25T14:18:26-05:00"/>
+<step title="Compact">
+	<step title="Compacting records of table Movies">
+	</step>
+	<step title="Compacting BLOBs of table Movies">
+	</step>
+	<step title="Compacting records of table Actors">
+	</step>
+	<step title="Compacting BLOBs of table Actors">
+	</step>
+	<step title="Compacting records of table Cast">
+	</step>
+	<step title="Compacting BLOBs of table Cast">
+	</step>
+	<step title="Move original">
+<move from="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.4DD" to="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Replaced Files (Compacting) 2018-06-25 14-18-26:Movies.4DD">
+</move>	</step>
+	<step title="Move the new file to the original location">
+<move from="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Replaced Files (Compacting) 2018-06-25 14-18-26:_Movies.4DD" to="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.4DD">
+</move>	</step>
+<move from="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Replaced Files (Compacting) 2018-06-25 14-18-26:_Movies.ExternalData:" to="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.ExternalData:">
+</move>	<step title="Move original index">
+<move from="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.4DIndx" to="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Replaced Files (Compacting) 2018-06-25 14-18-26:Movies.4DIndx">
+</move>	</step>
+	<step title="Move the new index file to the original location">
+<move from="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Replaced Files (Compacting) 2018-06-25 14-18-26:_Movies.4DIndx" to="Macintosh HD:Users:braymo:Documents:GitHub:Movies:Movies.4DIndx">
+</move>	</step>
+</step>
+<stop_timer time="2018-06-25T14:18:27-05:00" success="true" user_canceled="false"/>
+</verifylog>

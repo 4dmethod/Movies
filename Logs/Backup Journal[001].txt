@@ -1,0 +1,32 @@
+*** Full Backup
+Creating archive : Macintosh HD:Users:thomas:Documents:4D:Movies.4dbase:Movies[0001].4BK
+Creating log backup : Macintosh HD:Users:thomas:Documents:4D:Movies.4dbase:Movies[0000].4BL
+Attachment(s): 
+	Macintosh HD:Users:thomas:Documents:4D:Movies.4dbase:Movies.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:thomas:Documents:4D:Movies.4dbase:Movies.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:thomas:Documents:4D:Movies.4dbase:Movies.4DIndx [OK]
+Scheduled 31.12.02 00:09
+Starting 24.04.18 13:51
+Ending 24.04.18 13:52
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies[0001].4BK
+Attachment(s): 
+	Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies.4DIndx [OK]
+Scheduled 31.12.02 00:09
+Starting 14.06.18 15:41
+Ending 14.06.18 15:42
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies[0002].4BK
+Creating log backup : Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies[0001].4BL
+Attachment(s): 
+	Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:devcon:Desktop:4DMethods:Movies.4dbase:Movies.4DIndx [OK]
+Scheduled 31.12.02 00:09
+Starting 21.06.18 11:49
+Ending 21.06.18 11:49
+
